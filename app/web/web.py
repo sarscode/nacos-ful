@@ -10,4 +10,10 @@ blueprint = Blueprint('web', __name__, url_prefix='/',
 @blueprint.route('/')
 def home():
     """ Home page """
-    return render_template('home.html')
+    return render_template('home.html', title="NACOS | Federal University Chapter")
+
+
+@blueprint.route('/join')
+def join():
+    """ Home page """
+    return render_template('join.html', title="NACOS | Federal University Chapter - Become a member")

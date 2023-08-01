@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.cta {
+  background-color: #189e59;
+  color: #fff;
+  height: 40px;
+  padding: 0.65rem 2rem;
+}

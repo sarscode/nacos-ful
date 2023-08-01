@@ -1,11 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NACOS | FUL Chapter</title>
-  </head>
-  <body>
-    <h2>Home page</h2>
-  </body>
-</html>
+{% extends 'layout.html' %}
+
+<!-- Main content -->
+{%block content %}
+<header class="hero">
+  <div class="container hero__content">
+    <h1>Nigeria Association of Computing Students (NACOS)</h1>
+    <h2>Federal University Lokoja</h2>
+    <p class="hero__subtext">
+      We are Students IT Professionals in almost all tertiary institutions in
+      Nigeria. We Develop; We Create; We Build Capacity. By joining the
+      association, students grow their knowledge in a peer-to-peer learning
+      environment.
+    </p>
+    <a href="{{url_for('web.join')}}" class="cta">Join</a>
+  </div>
+</header>
+{%endblock %}

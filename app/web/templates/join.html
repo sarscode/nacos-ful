@@ -1,0 +1,37 @@
+{% extends 'layout.html' %}
+
+<!-- Main content -->
+{%block content %}
+<div class="container">
+  <div class="form-container">
+    <h2>Register</h2>
+    <p>Register to become a member</p>
+    <form action="" method="post">
+      <div class="form_input">
+        <input
+          type="email"
+          name="email"
+          placeholder="student@fulokoja.edu.ng"
+        />
+      </div>
+      <div class="form_input">
+        <input
+          type="text"
+          name="matric"
+          placeholder="student@fulokoja.edu.ng"
+        />
+      </div>
+      <div class="form_input">
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Enter your password"
+        />
+      </div>
+      <button type="submit" class="btn form_input">Register</button>
+    </form>
+    <p><a href="">Already have an account? Login</a></p>
+  </div>
+</div>
+{%endblock %}
